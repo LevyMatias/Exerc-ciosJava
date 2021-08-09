@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner (System.in);
+        
+        int A, B, X;
+        // Variável A e B para valores inteiros 
+        
+        A = input.nextInt();
+        B = input.nextInt();
+        
+        X = A + B; // X para colocar a soma de A e B
+        
+        System.out.printf("X = %d\n",X); // Saída do Resultado da variável X
+    }
+    
+}
